@@ -101,10 +101,11 @@ Esto es mala noticias para los que nos gusta más el fútbol sudaméricano (diga
 
 1. Hay que tener en cuenta que la selección de estas métricas fue discrecional. Pudiesen seleccionarse otras métricas que den mayor cuenta de la calidad de juego de un equipo.
 2. Se podría argumentar también que en realidad deberia medir la calidad de juego de los equipos al jugar americanos vs europeos, y no europeos vs europeos y americanos vs americanos (aunque lo que dijo Mbappe es que llegan mejor preparados por jugar más europeos contra europeos y tener estos mayor calidad futbolística)
-3. Sería interesante considerar la data consolidada de más Torneos, lo que nos permitiría tener más muestras y hacer más robusto el análisis, pero lamentablemente, es primera vez que el proveedor de la data guarda la Copa América
-4. Dejamos fuera una variable que podría considerarse importante como son los goles por partidos o victorias, no obstante, se quiso medir la calidad de juego independiente del resultado, que muchas veces no es justo (y...el fútbol no es justo siempre). Si incluimos ratios sobre cantidad de diparos.
-5. Dejamos fuera a los arqueros y su desempeño en la considración de métricas
-6. Seguramente existen otras métricas más especializadas y usadas en el fútbol hoy que por tiempo no se estudiaron e incluyeron
+3. Sería interesante considerar la data consolidada de más Torneos (más Copas Américas, más Eurcocopas), lo que nos permitiría tener más muestras y hacer más robusto el análisis, pero lamentablemente, es primera vez que el proveedor de la data guarda la Copa América
+4. Consideramos la data solo de dos torneos. Podrían haberse incluidos más torneos e incluso desempeños de juego en Copas de Mundo u otros.
+5. Dejamos fuera una variable que podría considerarse importante como son los goles por partidos o victorias, no obstante, se quiso medir la calidad de juego independiente del resultado, que muchas veces no es justo (y...el fútbol no es justo siempre). Si incluimos ratios sobre cantidad de diparos.
+6. Dejamos fuera a los arqueros y su desempeño en la considración de métricas
+7. Seguramente existen otras métricas más especializadas y usadas en el fútbol hoy que por tiempo no se estudiaron e incluyeron
    
 
 Al menos para esta aproximación...esta vez, ganó Francia...🇫🇷
