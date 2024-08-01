@@ -30,7 +30,7 @@ Nuestra aproximación al problema será **comparar la calidad del juego de los e
 - **3. dribbles_successful_ratio**: % de dribbles que fueron completados con éxito (mientras más alto, mejor)
 - **4. successful_recovery_ratio**: % de balones recuperados con éxito (mientras más alto, mejor)
 - **5. successful_interception_ratio**: % de intercepciones realizadas con éxito (mientras más alto, mejor)
-- **6. successful_shots_ratio**: % de los disparos al arco que efectivamente llegaron al arco, aunque haya sido palo o atrapado por el protero (mientras más alto mejor)
+- **6. successful_shots_ratio**: % de los disparos al arco que efectivamente llegaron al arco, aunque haya sido palo o atrapado por el portero (mientras más alto mejor)
 - **7. successful_shots_goal_ratio**:% de los disparos exitosos -o sea, de disparos que llegaron al arco (métrica 6)- que fueron gol
 - **8. shots_goal_ratio**: % de disparos que fueron gol, idnependiente de que el disparo haya llegado al arco
 
