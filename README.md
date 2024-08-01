@@ -57,8 +57,7 @@ Evaluamos la Homocedasticidad para cada métrica con el test de Levene (8 prueba
 Finalmente, a tener en cuenta, nuestra hipótesis nula y alternativa.
 
 
-- H0: Métrica(i) Eurocopa < Métrica Copa América
-- H1: Métrica(i) Eurocopa > Métrica Copa América
+- H0: Métrica(i) Eurocopa < Métrica(i) Copa América
+- H1: Métrica(i) Eurocopa > Métrica(i) Copa América
 
-  <img width="728" alt="image" src="https://github.com/user-attachments/assets/00f13de7-bcfd-4df7-9ca4-ac1a788656a5">
 
