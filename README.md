@@ -45,7 +45,22 @@ Partidos:
 - 32 partidos en la Copa América
 
 ## Metodología y Resultados
-Para cada métrica aplicamos una prueba T-Student.
+Para cada métrica gráficamos para entender visualmente cómo se comportó cada equipo por cada partido para cada torneo. Puedes verlo en el código; por espacio no podré todas las gráficas acá.
+Así mismo generamos un tabla comparativa con las medias y las medianas de cada métrica. Esto nos permite hacer una comparativa simple entre ambos torneos, y nos deja ver luces quién es mejor en promedio (o es mejor para el 50% de los equipos superiores). No obstante, esta comparación nos puede llevar a error. Lo más correcto sería validar que esas diferencias sean estadísticamente significativas. De todos modos te dejo acá las tablas comparativas simples de las medianas y medias:
+
+**Comparación de Medianas**
+
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/287fcb1f-a71d-46d6-a2b3-ef17ac8c9959">
+
+
+**Comparación de Medias**
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/a94e1a7b-b934-4226-8d7b-ee85b9799a7d">
+
+
+Ojo, que si nos quedaramos con esta "omparación simple", los equipos quedan empatados tanto en media como en medianas , ya que para el primer caso cada uno es mejor en 4 métricas, y en el caso de las medianas empatan en dos y son mejores cada uno en 3. Pero queremos hacer un análisis un poco más robusto que eso...
+
+Dado lo anterior, para cada métrica aplicamos una prueba T-Student.
 Consideramos nuestras dos muestras independientes. Lo que ocurre en los partidos de Eurocopa no debería afectar lo que ocurre con los partidos de Copa América.
 
 
@@ -60,4 +75,26 @@ Finalmente, a tener en cuenta, nuestra hipótesis nula y alternativa.
 - H0: Métrica(i) Eurocopa < Métrica(i) Copa América
 - H1: Métrica(i) Eurocopa > Métrica(i) Copa América
 
+El resultado es el siguiente:
 
+<img width="734" alt="image" src="https://github.com/user-attachments/assets/63a30172-0ecf-4c25-8b9c-358a955bcad8">
+
+
+
+
+**Solo para dos métricas (successful_pass_ratio y successful_recovery_ratio) podemos rechazar la hipótesis nula, es decir, existe evidencia estadística suficiente para concluir que el % de pases exitosos y  el % de recuperaciones de balón en los equipos de la Eurocopa son, en promedio, mayores (o mejores) que en la Copa América**.
+Para el resto de las métricas no existe evidencia suficiente que nos permita afirmar lo anterior, o sea, podríamos decir, simplificando el tema, que en el resto juegan similar europeos y americanos.
+
+Esto es mala noticias para los que nos gusta más el fútbol sudaméricano (digamos "malas noticias" entre comillas), o al menos, afirma con datos la declaración de Mbappe.
+
+##  Consideraciones adicionales y limitaciones
+
+1. Hay que tener en cuenta que la selección de estas métricas fue discrecional. Pudiesen seleccionarse otras métricas que den mayor cuenta de la calidad de juego de un equipo.
+2. Se podría argumentar también que en realidad deberia medir la calidad de juego de los equipos al jugar americanos vs europeos, y no europeos vs europeos y americanos vs americanos (aunque lo que dijo Mbappe es que llegan mejor preparados por jugar más europeos contra europeos y tener estos mayor calidad futbolística)
+3. Sería interesante considerar la data consolidada de más Torneos, lo que nos permitiría tener más muestras y hacer más robusto el análisis, pero lamentablemente, es primera vez que el proveedor de la data guarda la Copa América
+4. Dejamos fuera una variable que podría considerarse importante como son los goles por partidos o victorias, no obstante, se quiso medir la calidad de juego independiente del resultado, que muchas veces no es justo (y...el fútbol no es justo siempre). Si incluimos ratios sobre cantidad de diparos.
+5. Dejamos fuera a los arqueros y su desempeño en la considración de métricas
+6. Seguramente existen otras métricas más especializadas y usadas en el fútbol hoy que por tiempo no se estudiaron e incluyeron
+   
+
+Al menos para esta aproximación...esta vez, ganó Francia...🇫🇷
