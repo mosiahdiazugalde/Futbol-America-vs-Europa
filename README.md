@@ -45,7 +45,17 @@ Partidos:
 - 32 partidos en la Copa América
 
 ## Metodología y Resultados
-Para cada métrica gráficamos para entender visualmente cómo se comportó cada equipo por cada partido para cada torneo. Puedes verlo en el código; por espacio no podré todas las gráficas acá.
+Para cada métrica gráficamos para entender visualmente cómo se comportó cada equipo por cada partido para cada torneo. Por espacio no podré todas las gráficas acá, pero puedes revisarlas en el código, si quieres. Te dejo un par de ejemplos. En la siguiente imagen vemos cómo se distirbuyen **métricas de pase entre los equipos** de la Eurocopa vs los equipos de la Copa América. Se ve que los europeos dan más pases en total por partido, dna más pases exitosos por partido y también el % de pases exitosos por partidos es superior (de todos modos, para nuestro análisis posterior solo tomamos el ratio de pases exitosos, ya qe al ser procentaje, nos facilita la comparación independiente de la cantidad de equipos y partidos)
+
+![image](https://github.com/user-attachments/assets/e7163d5d-d08e-4562-a1f3-a000e8050716)
+
+Acá **el segundo ejemplo con los dribbles**. Los europoes tienen una distribución más amplia, es decir, hay equipos con mucho diribble y otros con muy poco, mientras que en América, en los equipos se ve menos amplitud en la distribución, es decir, son pocos los equipos que dribblean poco. Pero ojo, si vemos el porcentaje de dribbles exitosos, los equipos americanos parecen quedar un poco bajo los europeos (solo visualmente eh! ya vamos a entrar a picar).
+
+![image](https://github.com/user-attachments/assets/bc45d77e-e1d9-4995-b38b-7921c33a46fc)
+
+
+
+
 Así mismo generamos un tabla comparativa con las medias y las medianas de cada métrica. Esto nos permite hacer una comparativa simple entre ambos torneos, y nos deja ver luces quién es mejor en promedio (o es mejor para el 50% de los equipos superiores). No obstante, esta comparación nos puede llevar a error. Lo más correcto sería validar que esas diferencias sean estadísticamente significativas. De todos modos te dejo acá las tablas comparativas simples de las medianas y medias:
 
 **Comparación de Medianas**
