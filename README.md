@@ -106,6 +106,7 @@ Esto es mala noticias para los que nos gusta más el fútbol sudaméricano (diga
 5. Dejamos fuera una variable que podría considerarse importante como son los goles por partidos o victorias, no obstante, se quiso medir la calidad de juego independiente del resultado, que muchas veces no es justo (y...el fútbol no es justo siempre). Si incluimos ratios sobre cantidad de diparos.
 6. Dejamos fuera a los arqueros y su desempeño en la considración de métricas
 7. Seguramente existen otras métricas más especializadas y usadas en el fútbol hoy que por tiempo no se estudiaron e incluyeron
+8. Hay muchos análisis adicionales que se pueden hacer, muchos enfoques abordar. Afortunadamente la data del fútbol es muy muy exhaustiva. Lo malo...no hay tanto tiempo disponible...
    
 
 Al menos para esta aproximación...esta vez, ganó Francia...🇫🇷
