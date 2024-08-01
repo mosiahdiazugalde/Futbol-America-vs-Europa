@@ -49,7 +49,7 @@ Para cada métrica gráficamos para entender visualmente cómo se comportó cada
 
 ![image](https://github.com/user-attachments/assets/e7163d5d-d08e-4562-a1f3-a000e8050716)
 
-Acá **el segundo ejemplo con los dribbles**. Los europoes tienen una distribución más amplia, es decir, hay equipos con mucho diribble y otros con muy poco, mientras que en América, en los equipos se ve menos amplitud en la distribución, es decir, son pocos los equipos que dribblean poco. Pero ojo, si vemos el porcentaje de dribbles exitosos, los equipos americanos parecen quedar un poco bajo los europeos (solo visualmente eh! ya vamos a entrar a picar).
+Acá **el segundo ejemplo con los dribbles**. Los europeos tienen una distribución más amplia, es decir, hay equipos con mucho dribble y otros con muy poco, mientras que en América, en los equipos se ve menos amplitud en la distribución, es decir, son pocos los equipos que dribblean poco. Pero ojo, si vemos el porcentaje de dribbles exitosos, los equipos americanos parecen quedar un poco bajo los europeos (solo visualmente eh! ya vamos a entrar a picar).
 
 ![image](https://github.com/user-attachments/assets/bc45d77e-e1d9-4995-b38b-7921c33a46fc)
 
